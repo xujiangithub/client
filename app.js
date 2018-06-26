@@ -21,7 +21,7 @@ App({
                 app_id: getApp().globalData.app_id,
                 time_stamp: time_stamp,
                 nonce_str:nonce_str,
-              };             
+              };                    
               var stringA = util.sort(params);
               // console.log(stringA)
               var stringSignTemp = stringA + "&app_secert=1f8bcb22b633c72adf3d1e8bcf9bc1d4";
