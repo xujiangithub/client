@@ -1,0 +1,17 @@
+/* pages/secondary/mine/baby.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.all{
+  width: 100%;
+  height: 100%;
+  background-color: #FCC95E;
+  padding: 30rpx 40rpx;
+}
+.balance{
+  width: 100%;
+  height: 268rpx;
+  background-color: #fff;
+  border: 2rpx solid #131313;
+}

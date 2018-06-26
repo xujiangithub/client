@@ -1,0 +1,14 @@
+<!--pages/secondary/scan/money.wxml-->
+<view class='money'>
+  <image class='wa' src='../../../images/bg-wa.png'></image>
+  <view class='wa-bi'>{{balance}}蛙贝</view>
+  <view  class='box'>
+    <image class='bg-box' src='../../../images/bg-box.png'></image>
+    <view class='button-all'>
+      <button bindtap='homePage' class='button'>回到首页</button>
+      <button style='margin-left:100rpx' class='button'>我的宝贝</button>
+    </view>
+    
+  </view> 
+</view>
+

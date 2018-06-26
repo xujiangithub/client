@@ -1,0 +1,94 @@
+/* pages/secondary/mine/treasure.wxss */
+
+page{
+  width: 100%;
+  height: 100%;
+}
+.all{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center
+}
+.yellow{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.all-task{
+  position: relative;
+}
+.beeline{
+  width: 516rpx;
+  height: 20rpx;
+  position: absolute;
+  top: 80rpx;
+  left: 50%;
+  margin-left: -258rpx;
+}
+.conduct{
+  width: 186rpx;
+  height: 116rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 112rpx; 
+}
+.completed{
+  width: 186rpx;
+  height: 116rpx;
+  position: absolute;
+  top: 100rpx;
+  right: 112rpx; 
+}
+.middle{
+  width: 610rpx;
+  /* height: 100%; */
+  height: 1200rpx;
+  position: absolute;
+  top: 290rpx;
+  left: 50%;
+  margin-left: -305rpx;
+}
+.task{
+  width: 610rpx;
+  height: 198rpx;
+  box-sizing: border-box;
+  position: relative;
+  padding: 25rpx 25rpx 25rpx 65rpx; 
+  margin-bottom: 35rpx;
+}
+.task-bg{
+  width: 610rpx;
+  height: 198rpx;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  z-index: -1;
+}
+.task-name{
+  position: relative; 
+  font-size: 24rpx;
+  font-weight: bold;
+  text-align: left;
+}
+.task-detail{
+  margin-top: 10rpx;
+}
+.task-msg{
+  margin-left: 20rpx;
+}
+.button{
+  position: absolute;
+  bottom: 10rpx;
+  right: 5rpx;
+}
+.give-up2{
+  font-size: 24rpx;
+  color: #ea7160;
+  margin: auto 2rpx
+}

@@ -1,0 +1,20 @@
+<!--pages/secondary/scan/scan.wxml-->
+<view class='all'> 
+    <map class='map' id='map' longitude="{{longitude}}" latitude="{{latitude}}" markers='{{markers}}' scale="14">
+       <cover-image bindtap='refresh' class='lucky-window' src='../../../images/lucky-window.png'></cover-image> 
+       <cover-view class='info'>
+             {{task_info}}
+       </cover-view> 
+      <!-- <cover-view class='lucky-window'>
+        <cover-image class='window-title' src='../../../images/lucky.png'></cover-image> 
+         <cover-image  bindtap='refresh' class='window-refresh' src='../../../images/refresh.png'></cover-image> 
+           <button bindtap='refresh' class='window-refresh'>刷新</button> 
+          <button bindtap='toGo' class='window-confirm'>确认</button> 
+         <cover-view class='info'>
+             {{taskList.task_info}} 
+         </cover-view>
+      </cover-view>   -->
+      <cover-image  bindtap='giveUp' class='give-up' src='../../../images/give-up.png'></cover-image>
+      <cover-image bindtap='toGo' class='go' src='../../../images/go.png'></cover-image>  
+    </map>   
+</view>    

@@ -1,0 +1,6 @@
+<!--pages/secondary/mine/baby.wxml-->
+<view class='all'>
+  <view class='balance'>
+
+  </view>
+</view>

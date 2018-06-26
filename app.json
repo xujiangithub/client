@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/first",
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/code/code",
+    "pages/secondary/mine/mine",
+    "pages/secondary/mine/treasure",
+    "pages/secondary/mine/baby",
+    "pages/secondary/scan/scan",
+    "pages/secondary/scan/money",
+    "pages/secondary/scan/purse",
+    "pages/secondary/scan/go",
+    
+    "pages/secondary/scan/goTo",
+    "pages/secondary/bindPhone/bindPhone"
+  ],
+  "window":{
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FCC95E",
+    "navigationBarTitleText": "哇 Lucky",
+    "navigationBarTextStyle":"black"
+  }
+}

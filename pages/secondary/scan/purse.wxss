@@ -1,0 +1,32 @@
+/* pages/secondary/scan/purse.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.purse{
+  width: 678rpx;
+  height: 731rpx;
+  position: absolute;
+  top: 170rpx;
+  left: 50%;
+  margin-left: -339rpx;
+  right: 0;
+  bottom: 0;
+}
+.surprise{
+  width: 678rpx;
+  height: 731rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.open{
+  width: 232rpx;
+  height: 199rpx;
+  position: absolute;
+  top: 167rpx;
+  left: 50%;
+  margin-left: -122rpx;
+}

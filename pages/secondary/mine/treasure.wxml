@@ -1,0 +1,43 @@
+<!--pages/secondary/mine/treasure.wxml-->
+
+<view class='all'>
+  <image class='yellow' src='../../../images/yellow.png'></image>
+  <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;"   
+          class="list" bindscrolltolower="bindDownLoad" bindscroll="scroll" bindscrolltoupper="refresh" scroll-with-animation="true">
+    <view wx:if='{{taskOff}}' class='all-task'>
+      <image class='beeline' src='../../../images/beeline.png'></image>
+      <image class='conduct' src='../../../images/conduct2.png'></image>
+      <image bindtap='changeTask' class='completed' src='../../../images/completed.png'></image>
+    </view>
+    <view wx:else class='all-task'>
+      <image class='beeline' src='../../../images/beeline.png'></image>
+      <image bindtap='changeTask' class='conduct' src='../../../images/conduct.png'></image>
+      <image class='completed' src='../../../images/completed2.png'></image>
+    </view>
+
+    <view class='middle'>
+      <view class='task' wx:for="{{taskList}}" wx:key="index"> 
+        <image class='task-bg' src='../../../images/task-bg.png'></image> 
+        <view class='task-name' >
+          <text>任务名称</text>
+          <text class='task-msg'>{{item.id}}</text>
+        </view> 
+        <view class='task-name task-detail'>
+          <text>详细信息</text>
+          <text class='task-msg'>{{item.task_info}}</text>
+        </view>
+          <view wx:if='{{taskOff}}' class='button'>
+          <!-- <button class='give-up2' size='mini'>放弃</button> -->
+          <button bindtap='finish' class='give-up2' size='mini'>完成</button>
+        </view> 
+      </view> 
+    
+    </view>
+  </scroll-view>
+  <!-- <view class='body-view'>
+     <loading hidden="{{hidden}}" bindchange="loadingChange">  
+            加载中...  
+      </loading>  
+  </view> -->
+</view>
+

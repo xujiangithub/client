@@ -1,0 +1,139 @@
+page{
+    width: 100%;
+    height: 100%;
+  }
+.frog-all{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.login{
+  width: 100%;
+  height: 300rpx;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:100;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252,201,94,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 55;
+}
+.bg-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1
+}
+.lucky-img{
+  margin: auto;
+  width: 293rpx; 
+  height: 133rpx;
+  position: absolute;
+  top: 36rpx;
+  left: 50%;
+  margin-left: -146rpx;
+}
+.code-img{
+  width: 306rpx; 
+  height: 306rpx;
+  position: absolute;
+  bottom: 100rpx;
+  left: 50%;
+  margin-left: -144rpx;
+}
+.phone-img{
+   width: 87rpx; 
+  height: 100rpx;
+  /* position: absolute;
+  top: 40rpx;
+  left: 46rpx;  */
+  /* width: 128rpx; 
+  height: 150rpx; */
+  position: absolute;
+  top: 5rpx;
+  right: 46rpx;
+}
+.man-img{
+  width: 87rpx; 
+  height: 100rpx;
+  /* width: 128rpx; 
+  height: 150rpx; */
+  position: absolute;
+  top: 140rpx;
+  right: 35rpx;
+}
+.phone-window{
+  width: 566rpx;
+  height: 566rpx;
+  background-color: #fff;
+  position: absolute;
+  top: 230rpx;
+  left: 50%;
+  margin-left: -283rpx;
+  box-sizing: border-box;
+  padding: 65rpx 45rpx; 
+  box-shadow: 0 0 10rpx 10rpx rgba(239,156,51, 0.5);
+  z-index: 66;
+}
+.error{
+  width: 54rpx;
+  height: 54rpx;
+  position: absolute;
+  top: -25rpx;
+  right: -25rpx;
+}
+.error-img{
+  width: 54rpx;
+  height: 54rpx;
+}
+.phone-top{
+  width: 100%;
+  height: 70rpx;
+  text-align: center
+}
+.phone-title{
+  font-size: 24rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.phone-middle{
+  margin-top: 40rpx;
+
+}
+.phone-input{
+  width: 290rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 68rpx;
+  border-bottom: 1rpx solid #EF9C33;
+  padding-left: 35rpx;
+}
+.code{
+  width: 150rpx;
+  /* height: 50rpx; */
+  margin-top: 5rpx;
+  font-size: 18rpx; 
+  float: left;
+  color: #fff;
+  background-color: #EF9C33;
+  box-shadow: 0 0 5rpx 5rpx rgba(239,156,51, 0.5);
+
+}
+.confirm{
+  width: 100%;
+  /* height: 70rpx; */
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #EF9C33;
+  box-shadow: 0 0 30rpx 10rpx rgba(239,156,51, 0.3)
+}

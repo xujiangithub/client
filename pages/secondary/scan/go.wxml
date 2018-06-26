@@ -1,0 +1,28 @@
+<!--pages/secondary/scan/go.wxml-->
+<view class='go-all'>
+  <map class='go-map' id='map'  longitude='{{longitude}}' latitude='{{latitude}}' markers='{{markers}}' scale="12">
+  <cover-view class='taskState'>
+    <cover-view class='clearfix place'>
+      <cover-image class='light' src='../../../images/light.png'></cover-image>
+      <cover-view class='state'>进行中</cover-view>
+    </cover-view>
+    <cover-view class='clearfix station'>
+      <cover-view class='task-time'>120分钟</cover-view>
+      <cover-image src='../../../images/bg-place.png'></cover-image>
+      <cover-view class='departure'>新都汇</cover-view>
+      <cover-view class='departure'>白马湖</cover-view>
+    </cover-view>
+    <cover-view class='clearfix task-state'>
+      <cover-view bindtap='complete' class='go-on'>到此为止</cover-view>
+      <cover-view bindtap='goOn' class='go-on'> 继续前行</cover-view> 
+    </cover-view> 
+  </cover-view>
+  <!-- <cover-image bindtap='goTo' class='scenery' src='../../../images/scenery.png'></cover-image> -->
+  <cover-view class='bottom'>
+    <cover-image class='scenery' src='../../../images/scenery.png'></cover-image>
+    <cover-view class='written-words'>目的地的介绍</cover-view>
+    <cover-view bindtap='giveUp' class='give-up'>放弃</cover-view>
+  </cover-view>
+  </map>
+</view>
+

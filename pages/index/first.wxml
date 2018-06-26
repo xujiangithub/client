@@ -1,0 +1,7 @@
+<!--pages/index/first.wxml-->
+<view class='authorize'>
+ <image class='bg' src='../../images/bg-login.png'></image>
+  <button class='login'  wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击授权登录</button>  
+  <view wx:else>请升级微信版本</view>
+</view>
+  

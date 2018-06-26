@@ -1,0 +1,19 @@
+<!--pages/secondary/mine/mine.wxml-->
+<view class='mine-all'>
+  <image class='bg-img' src='../../../images/bg2.png'></image>
+  <view class='top'>
+    <image class='top-square' src='../../../images/square.png'></image>
+    <image class='top-head' src='../../../images/head.png'></image>
+    <view class='top-msg'>{{balance}}蛙贝</view>
+  </view>
+  <view class='middle'>
+  <navigator url='./treasure'>
+    <image class='treasure-hunt' src='../../../images/treasure-hunt.png'></image>
+  </navigator>
+  <!-- <navigator url='./baby'> -->
+    <image bindtap='showToast' class='treasure-hunt' src='../../../images/mybaby.png'></image>
+  <!-- </navigator>     -->
+    <!-- <image bindtap='showToast' class='treasure-hunt' src='../../../images/mypurse.png'></image> -->
+  </view>
+ 
+</view>

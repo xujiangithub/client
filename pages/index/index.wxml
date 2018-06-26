@@ -1,0 +1,38 @@
+<view class='frog-all'>
+   <!-- <button class='login'  wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>  
+  <view wx:else>请升级微信版本</view>  -->
+
+  <view wx:if="{{phoneOff}}" class='cover'></view>  
+  <image class='bg-img' src='../../images/bg.png'></image>
+  <!-- <image class='lucky-img' src='../../images/lucky.png'></image> -->
+  <image bindtap='changePhone' class='phone-img' src='../../images/phone.png'></image>
+  <!-- 手机扫码 -->
+     <!-- <navigator url='../code/code'>    -->
+    <!-- <navigator url='../secondary/scan/scan'>   -->
+    <image bindtap='toCode' class='code-img' src='../../images/code.png'></image>
+    <!-- </navigator>   -->
+  <navigator url='../secondary/mine/mine'>
+    <image class='man-img' src='../../images/man.png'></image>
+  </navigator>
+
+    <view wx:if="{{phoneOff}}" class='phone-window'>  
+
+    <view bindtap='close' class='error'>
+      <image class='error-img' src='../../images/error.png'></image>
+    </view>
+    <view class='phone-top'>
+      <text class='phone-title'>认证手机号</text>
+    </view>
+    <view class='phone-middle'>
+      <view class='clear'>
+         <input bindblur='submitPhone' class='phone-input' placeholder="请输入您的手机号"/> 
+         
+         <!-- <input bindinput='submitPhone' class='phone-input' placeholder="请输入您的手机号"/> -->
+        <button bindtap='getCode' class='code'>获取验证码</button>
+      </view>
+      <input bindinput='submitCode' style='width:440rpx' class='phone-input' placeholder="请输入验证码" />
+      <button bindtap='login' class='confirm'>确认</button>
+    </view>  
+  </view> 
+</view>
+   

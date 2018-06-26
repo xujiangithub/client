@@ -1,0 +1,6 @@
+<!--pages/secondary/scan/purse.wxml-->
+<view class='purse'>
+  <image class='surprise' src='../../../images/purse.png'></image>
+  <image bindtap='toMoney' class='open' src='../../../images/open.png'></image>
+</view>
+

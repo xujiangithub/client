@@ -1,0 +1,124 @@
+/* pages/secondary/scan/go.wxss */
+.clearfix::after {
+            content: ".";
+            clear: both;
+            display: block;
+            overflow: hidden;
+            font-size: 0;
+            height: 0;
+}
+
+.clearfix {
+            zoom: 1;
+ }
+page{
+  width: 100%;
+  height: 100%;
+}
+.go-all{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.go-map{
+  width: 100%;
+  height: 100%;
+}
+.scenery{
+  /* width: 673rpx;
+  height: 361rpx; */
+  width: 646rpx;
+  height: 298rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.written-words{
+  font-size: 24rpx;
+  position: absolute;
+  bottom: 230rpx;
+  left: 50%;
+  margin-left: -100rpx; 
+  padding-left:  20rpx;
+}
+.taskState{
+  width: 100%;
+  /* height: 250rpx; */
+  background-color: #fff;
+  position: absolute;
+  top:0;
+  padding: 20rpx 0; 
+  font-size: 24rpx;
+}
+.place{
+  width:  200rpx;
+  /* height: 100rpx; */
+  margin: auto;
+}
+.light{
+  width: 39rpx;
+  height: 42rpx;
+  float: left;
+}
+.state{
+  float: left;
+  font-size: 32rpx;
+  color: #ff9500;
+  margin-left: 20rpx;
+}
+.station{
+  width: 100%;
+  margin-top: 40rpx;
+  position: relative
+}
+.task-time{
+  width: 100rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -20rpx;
+  top: 50rpx;
+}
+.departure{
+   width: 50%;
+   float: left;
+   white-space: pre-line;
+   text-align: center;
+   margin-top: 20rpx;
+}
+.task-state{
+  width: 100%;
+  height: 140rpx;
+}
+.go-on{
+  width: 220rpx;
+  height: 70rpx;
+  float: left;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 20rpx;
+  background-color: #FF9500;
+  box-shadow: 0 0 10rpx 10rpx rgba(255,149,0,0.3);
+  color: #fff;
+  margin-left: 110rpx;
+  margin-top: 40rpx;
+}
+.give-up{
+  width: 150rpx;
+  height: 50rpx;
+  border: 2rpx solid #D7D7D7;
+  position: absolute;
+  bottom: 35rpx;
+  right: 35rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+}
+.bottom{
+  width: 646rpx;
+  height: 298rpx;
+  position: absolute;
+  bottom: 40rpx; 
+  left: 50%;
+  margin-left: -323rpx;
+}
